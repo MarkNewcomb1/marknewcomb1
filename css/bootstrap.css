@@ -5924,6 +5924,9 @@ a.list-group-item.active:focus .list-group-item-text {
   padding: 15px;
 }
 
+.panel-body a {
+    padding-left: 10px;
+}
 .panel-body:before,
 .panel-body:after {
   display: table;
