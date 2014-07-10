@@ -86,47 +86,48 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="page-header">
-              <h1 id="type">Websites I've Done</h1>
+              <h1 id="type">My Cd Collection</h1>
             </div>
           </div>
-        </div>
+            <?php
+ini_set('display_errors','1');
+include($_SERVER['DOCUMENT_ROOT'].'/data_access_object/MySQL/Client.MySQL.php');
 
-        <!-- Headings -->
+$query_set=array(
+	'table_set'=>array("CDs"),
+	'index_set'=>array("Artist","Album_Title","Notes"),
+	//'limit_set'=>5,
+	'order_set'=>'Artist ASC'
+);
 
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="bs-example bs-example-type">
-              
-              <a href="http://www.kspath.com"><h1 class= "text-primary">KSPATH</h1></a>
-                <p class= "lead">Laboratory website with heavy JavaScript, responsive design, and currently working on a PHP database solution for their medical test catalog.</p>
-                <a href="http://www.affordalab.com"><h1 class= "text-primary">AFFORDALAB</h1></a>
-                <p class= "lead">Medical website using a manual install of Wordpress, intergrating the server's MySQL functionality. </p>
-            </div>
-                
-          </div>
-          <div class="col-lg-4">
-            <div class="bs-example">
-              <h2>Recent Graduate of WebLab Bootcamp</h2>
-              <p>The curriculum, <a href="https://docs.google.com/document/d/1TuXFTJ3SVkCSnHZTR69w0YhTPqKVYW6ZHw-pygyRwyE/edit?pli=1">which can be viewed here,</a> was through Front Range Community College <strong>BUT</strong> was not featured on the regular course catalog, and was only available to the 15 accepted applicants out of 50+ who applied. A further interview was required for acceptance into the program, and involved 20 hours per week of Web Development related lectures and projects.</p>
-              <p><small>The class ran from September 2nd through November 14th, 2013.</small></p>
-              <p>I also have Photoshop skills.</p>
-             
-            </div>
+$request=new Client_MySQL();
+$result=$request->db_select($query_set);
 
-          </div>
-          <div class="col-lg-4">
+            ?>
 
-            <h2>Other skills and hobbies</h2>
-            <div class="bs-example">
-              <p class="text-muted">Former K-12 Music Teacher</p>
-              <p class="text-primary">Lifelong piano player, also guitar</p>
-              <p class="text-warning">Was a recording and live sound engineer (I still do my own recordings now and then)</p>
-              <p class="text-danger">Audio enthusiast/Audiophile</p>
-                <p class="text-success">I've been known to cook a meal...</p>
-            </div>
+
+<?php
+
+echo "<table>";
+echo "<tr><th>Artist</th><th>Album</th><th>Notes</th></tr>";
+
+$i=0;
+for($i=0;$i<count($result->query);$i++){
+	$album_title=$result->query[$i]['Album_Title'];
+	$artist=$result->query[$i]['Artist'];
+        $notes=$result->query[$i]['Notes'];
+?>
+<tr><td><?php echo $artist; ?></td>
+    <td><?php echo $album_title; ?></td>
+    <td><?php echo $notes; ?></td>
+</tr>
+<?php
+}
+echo "</table>";
+?>
             
-          </div>
         </div>
+
 
         <!-- Blockquotes -->
 
@@ -136,7 +137,7 @@
           <div class="col-lg-12">
             
             <ul class="list-unstyled">
-              <li class="pull-right"><a href="/#top">Back to top</a></li>
+              <li class="pull-right"><a href="/#top">Back to Home</a></li>
               
                 <li><h3><a href="mailto:mark.newcomb@marknewcomb1.com" class="text-warning">Email Me</a></h3></li>
                 <!--<li><a href="http://news.bootswatch.com/">Blog</a></li>-->
