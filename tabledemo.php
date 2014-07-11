@@ -117,9 +117,9 @@ for($i=0;$i<count($result->query);$i++){
 	$artist=$result->query[$i]['Artist'];
         $notes=$result->query[$i]['Notes'];
 ?>
-<tr><td><?php echo $artist; ?></td>
-    <td><?php echo $album_title; ?></td>
-    <td><?php echo $notes; ?></td>
+<tr><td class="artist"><?php echo $artist; ?></td>
+    <td class="album"><?php echo $album_title; ?></td>
+    <td class="notes"><?php echo $notes; ?></td>
 </tr>
 <?php
 }
