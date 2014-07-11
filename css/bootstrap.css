@@ -212,6 +212,16 @@ table {
 .artist{
     width:26%;
 }
+.album{
+    width:23%;
+}
+.notes{
+    width:51%;
+}
+tr{
+    color:red;
+    font-size:2em;
+}
 @media print {
   * {
     color: #000 !important;
