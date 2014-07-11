@@ -109,7 +109,7 @@ $result=$request->db_select($query_set);
 <?php
 
 echo "<table>";
-echo "<tr><th>Artist</th><th>Album</th><th>Notes</th></tr>";
+echo "<tr class='header'><th>Artist</th><th>Album</th><th>Notes</th></tr>";
 
 $i=0;
 for($i=0;$i<count($result->query);$i++){

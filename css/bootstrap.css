@@ -218,9 +218,24 @@ table {
 .notes{
     width:51%;
 }
-tr{
+tr.header{
     color:red;
     font-size:2em;
+    background-color:#060606!important;
+}
+tr.header th{
+    padding-left:1%;
+}
+tr:nth-of-type(odd){
+    background-color:blue;
+}
+.artist, .album, .notes{
+    padding-bottom:1%;
+    padding-top:1%;
+    font-size:1.1em;
+    padding-left:1%;
+    vertical-align: middle;
+    color:#EDEDED;
 }
 @media print {
   * {
