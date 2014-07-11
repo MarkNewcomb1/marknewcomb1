@@ -209,7 +209,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
+.artist{
+    width:26%;
+}
 @media print {
   * {
     color: #000 !important;
