@@ -237,6 +237,11 @@ tr:nth-of-type(odd){
     vertical-align: middle;
     color:#EDEDED;
 }
+@media only screen and (max-width:719px){
+    .artist, .album, .notes{
+        font-size:.8em;
+    }
+}
 @media print {
   * {
     color: #000 !important;
