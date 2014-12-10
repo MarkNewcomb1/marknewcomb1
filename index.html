@@ -45,13 +45,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="index.html">Home</a>
+                  <a class="navbar-brand" href="/index">Home</a>
                 </div>
                 <div class="navbar-collapse collapse navbar-inverse-collapse">
                   <ul class="nav navbar-nav">
-                    <li class="active"><a href="pictures.html">Pictures</a></li>
-                    <li class="active"><a href="music.html">Music</a></li>
-                    <li class="active"><a href="tabledemo.php">PHP Demo</a></li>
+                    <li class="active"><a href="/pictures">Pictures</a></li>
+                    <li class="active"><a href="/music">Music</a></li>
+                    <li class="active"><a href="/tabledemo">PHP Demo</a></li>
                    <!-- <li class="dropdown">
                       <a href="http://bootswatch.com/cyborg/#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                       <ul class="dropdown-menu">
