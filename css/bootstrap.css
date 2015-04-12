@@ -499,14 +499,16 @@ h1,
 
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 2em;
 }
 
 h3,
 .h3 {
   font-size: 24px;
 }
-
+h3.text-warning{
+	font-size: 1em;
+}
 h4,
 .h4 {
   font-size: 18px;
@@ -559,7 +561,9 @@ cite {
 .text-primary:hover {
   color: #2180ac;
 }
-
+h1.text-primary{
+	font-size:2em;
+}
 .text-warning {
   color: #ffffff;
 }
@@ -4557,7 +4561,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
-
+.navbar a {
+  -webkit-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+.navbar a:hover {
+	color:#2a9fd6!important;
+}
 .navbar:before,
 .navbar:after {
   display: table;
@@ -5133,7 +5143,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
+  color: #2a9fd6;
   background-color: transparent;
 }
 
