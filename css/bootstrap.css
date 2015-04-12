@@ -208,6 +208,7 @@ textarea {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  margin-left: 15px;
 }
 .artist{
     width:26%;
@@ -227,7 +228,7 @@ tr.header th{
     padding-left:1%;
 }
 tr:nth-of-type(odd){
-    background-color:blue;
+    background-color:#2a9fd6;
 }
 .artist, .album, .notes{
     padding-bottom:1%;
@@ -6257,13 +6258,13 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-info {
-  border-color: #6e2caf;
+  border-color: #2a9fd6;
 }
 
 .panel-info > .panel-heading {
   color: #ffffff;
-  background-color: #9933cc;
-  border-color: #6e2caf;
+  background-color: #2a9fd6;
+  border-color: #2a9fd6;
 }
 
 .panel-info > .panel-heading + .panel-collapse .panel-body {
