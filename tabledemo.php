@@ -163,9 +163,9 @@ echo "</table>";
                 <li><h3 class="text-warning">Email Me at mark.newcomb@marknewcomb1.com</h3></li>
                 <!--<li><a href="http://news.bootswatch.com/">Blog</a></li>-->
               
-              <li><a href="https://github.com/marknewcomb1"> My GitHub</a></li></br>
+              <li><a href="https://github.com/marknewcomb1" target="_blank"> My GitHub</a></li></br>
                 
-            <li>&copy; Mark Newcomb 2014</li>
+            <li>&copy; Mark Newcomb 2015</li>
             </ul>
 
 
