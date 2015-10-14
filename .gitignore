@@ -15,6 +15,7 @@ local.properties
 .classpath
 .settings/
 .loadpath
+video/
 
 # External tool builders
 .externalToolBuilders/
