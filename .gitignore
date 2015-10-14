@@ -28,7 +28,9 @@ video/
 
 # PDT-specific
 .buildpath
-
+# data-access-object
+data_access_object/
+data_access_object-master.zip
 
 #################
 ## Visual Studio
