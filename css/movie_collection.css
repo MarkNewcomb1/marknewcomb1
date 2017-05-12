@@ -1,0 +1,54 @@
+* {
+			box-sizing: border-box;
+			background-color: #1a1a1a;
+			font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+		h1 {
+			color: #f2f2f2;
+			font-weight: 300;
+		}
+		.wrapper {
+			margin: 0 auto;
+			text-align: center;
+		}
+		.title {
+			font-weight: bold;
+			font-size: 1.1em;
+			color: white;
+		}
+		figure img {
+			min-width: 300px;
+			padding: 4px;
+		}
+		figcaption {
+			font: 1.1em;
+			color: #f2f2f2;
+			text-align: center;
+			margin-top: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 310px;
+		}
+		figure {
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 10px 10px 10px;
+		}
+		
+		@media screen and (min-width: 780px){
+			figure {
+				width: 39%;
+			}
+		}
+		
+		@media screen and (min-width: 1042px){
+			figure {
+				width: 30%;
+			}
+		}
+		
+		@media screen and (min-width: 1440px){
+			figure {
+				width: 21%;
+			}
+		}

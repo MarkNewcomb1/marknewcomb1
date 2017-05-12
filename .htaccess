@@ -1,0 +1,29 @@
+Options -Indexes
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+
+RewriteEngine on 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.html -f 
+RewriteRule ^(.*)$ $1.html
+
+Options +FollowSymLinks 
+#RewriteEngine on
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^marknewcomb1\.com
+RewriteRule (.*) http://marknewcomb1.com/$1 [R=301,L]
+
+Redirect 301 /img/political_cartoon.jpg http://marknewcomb1.com
+Redirect 301 /img/wireframe.jpg http://marknewcomb1.com
+Redirect 301 /img/ding_soopers.jpg http://marknewcomb1.com
+Redirect 301 /img/telluride.jpg http://marknewcomb1.com
+Redirect 301 /img/mach_1_hood.jpg http://marknewcomb1.com
+Redirect 301 /img/chevrolet_camaro.jpg http://marknewcomb1.com
+Redirect 301 /img/honey.jpg http://marknewcomb1.com
+Redirect 301 /img/guitar_recital.jpg http://marknewcomb1.com
+Redirect 301 /img/shirt_design.jpg http://marknewcomb1.com
+Redirect 301 /img/calvin_and_hobbes.jpg http://marknewcomb1.com
+Redirect 301 /img/me_at_dg.jpg http://marknewcomb1.com
+Redirect 301 /img/KPS-LLC-Logo-in-Blue.gif http://marknewcomb1.com
