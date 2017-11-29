@@ -151,6 +151,20 @@ footer {
 .section-description {
 	margin-bottom: 4rem;
 }
+.section.my-work p {
+	color: #f2f2f2;
+	font-size: 1.8rem;
+}
+.bh {
+	width: 300px;
+	max-width: 100%;
+	margin-bottom: 1.5rem;
+}
+@media (min-width: 1024px) {
+	.bh {
+		margin-right: 1.5rem;
+	}
+}
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .hero-heading {
@@ -463,7 +477,9 @@ form {
   float: right; }
 .u-pull-left {
   float: left; }
-
+.clear {
+	clear: both;
+}
 
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
