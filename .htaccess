@@ -27,3 +27,8 @@ Redirect 301 /img/shirt_design.jpg http://marknewcomb1.com
 Redirect 301 /img/calvin_and_hobbes.jpg http://marknewcomb1.com
 Redirect 301 /img/me_at_dg.jpg http://marknewcomb1.com
 Redirect 301 /img/KPS-LLC-Logo-in-Blue.gif http://marknewcomb1.com
+
+AuthUserFile /work_examples/.htpasswd
+AuthType Basic
+AuthName "work_examples"
+Require valid-user

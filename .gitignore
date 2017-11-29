@@ -9,7 +9,7 @@ tmp/
 local.properties
 .settings/
 video/
-
+work_examples/
 
 # Others
 sql/
