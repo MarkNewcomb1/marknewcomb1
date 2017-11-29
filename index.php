@@ -91,7 +91,7 @@
   <div class="section get-help flora">
     <div class="container">
       <h3 class="section-heading">View my GitHub or Linkedin</h3>
-      <p class="section-description">I've created an PHP-based MVC for collecting flora information in Colorado's wilderness, complete with HTML5 and PHP input validation, Open Weather API, and geolocation. Very little framework; mostly from-scratch code.</p>
+      <p class="section-description">I've made an app for collecting flora information in Colorado's wilderness, complete with HTML5 and PHP input validation, Open Weather API, and geolocation. Very little framework - mostly from-scratch code.</p>
       <a class="button button-primary" href="https://github.com/MarkNewcomb1/flora" target="_blank">View the Source</a>
       <a class="button button-primary" href="https://www.linkedin.com/in/marknewcomb1" target="_blank">View My LinkedIn</a>
       <img class="u-max-full-width" id="flora-finder" src="images/flora-finder-desktop.png">
@@ -100,7 +100,7 @@
     <div class="section get-help react">
     <div class="container">
       <h3 class="section-heading">React.js Music Collection/Search App</h3>
-      <p class="section-description">Using the Discogs API, I've created an app that allows you to keep track of your physical media collection. Built with React, Node, Express, jQuery and hand-built CSS; NO Bootstrap!</p>
+      <p class="section-description">Using the Discogs API, I've created an app that allows you to keep track of your physical media collection. Built with React, Node, Express, jQuery and hand-built CSS - NO Bootstrap!</p>
       <a class="button button-primary" href="https://github.com/MarkNewcomb1/final-project" target="_blank">View the Source</a>
       <a class="button button-primary" href="https://www.youtube.com/watch?v=gjayvebQerI" target="_blank">View Demo Video</a>
     </div>
@@ -108,7 +108,7 @@
   <div class="section categories">
     <div class="container">
       <h3 class="section-heading">Of Course, I Know WordPress Too</h3>
-      <p class="section-description">I have extensive experience maintaining legacy websites for clients, as well as putting Wordpress sites through server migrations, updates, PHP wrappers, etc.</p>
+      <p class="section-description">I have extensive experience maintaining legacy websites for clients, as well as putting Wordpress sites through server migrations, updates, etc.</p>
       <div class="row">
         <div class="one-half column category">
           <a href="http://kspath.com" target="_blank"><img class="u-max-full-width" src="images/kps-desktop-low.jpg"></a>
