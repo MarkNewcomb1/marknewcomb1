@@ -73,17 +73,17 @@
         <div class="one-third column value">
           <h2 class="value-multiplier">3+</h2>
           <h5 class="value-heading">Years' Experience</h5>
-          <p class="value-description">Employed with Web Development companies in Colorado</p>
+          <p class="value-description">with Web Development companies in Colorado</p>
         </div>
         <div class="one-third column value">
           <h2 class="value-multiplier">3</h2>
           <h5 class="value-heading">Formal Certificates</h5>
-          <p class="value-description">Professional certificate in Full Stack Web Development (MongoDB, Express, Angular, Node, React), Frontend Bootcamp (HTML5, SASS/CSS, Javascript) and Backend Bootcamp (PHP, server-side architectures)</p>
+          <p class="value-description">in Full Stack Web Development (MongoDB, Express, Angular, Node, React), Frontend Bootcamp (HTML5, SASS/CSS, Javascript) and Backend Bootcamp (PHP, server-side architectures)</p>
         </div>
         <div class="one-third column value">
           <h2 class="value-multiplier">6</h2>
           <h5 class="value-heading">Global brands</h5>
-          <p class="value-description">That I've been entrusted to do website builds for, whose names you've seen on store shelves. Some have been full builds; others have been integration of new features into existing codebases. <br>Either way, I get it done.</p>
+          <p class="value-description">I've been entrusted to do website builds for, whose names you've seen in stores. Some have been full builds; others have been integration of new features into existing codebases. <br>Either way, I get it done.</p>
         </div>
       </div> <!-- row -->
     </div>
@@ -91,18 +91,18 @@
   <div class="section get-help flora">
     <div class="container">
       <h3 class="section-heading">View my GitHub or Linkedin</h3>
-      <p class="section-description">I've made an app for collecting flora information in Colorado's wilderness, complete with HTML5 and PHP input validation, Open Weather API, and geolocation. Very little framework - mostly from-scratch code.</p>
-      <a class="button button-primary" href="https://github.com/MarkNewcomb1/flora" target="_blank">View the Source</a>
-      <a class="button button-primary" href="https://www.linkedin.com/in/marknewcomb1" target="_blank">View My LinkedIn</a>
-      <img class="u-max-full-width" id="flora-finder" src="images/flora-finder-desktop.png">
+      <p class="section-description">I've made an app for collecting flora information in Colorado's wilderness, with HTML5 and PHP input validation, Open Weather API, and geolocation. Very little framework - mostly from-scratch code.</p>
+      <a class="button button-primary" href="https://github.com/MarkNewcomb1/flora" target="_blank">GitHub source</a>
+      <a class="button button-primary" href="https://www.linkedin.com/in/marknewcomb1" target="_blank">LinkedIn</a>
+      <img class="u-max-full-width" id="flora-finder" src="images/flora-finder-desktop.jpg">
     </div>
   </div>
     <div class="section get-help react">
     <div class="container">
       <h3 class="section-heading">React.js Music Collection/Search App</h3>
-      <p class="section-description">Using the Discogs API, I've created an app that allows you to keep track of your physical media collection. Built with React, Node, Express, jQuery and hand-built CSS - NO Bootstrap!</p>
-      <a class="button button-primary" href="https://github.com/MarkNewcomb1/final-project" target="_blank">View the Source</a>
-      <a class="button button-primary" href="https://www.youtube.com/watch?v=gjayvebQerI" target="_blank">View Demo Video</a>
+      <p class="section-description">I've made an app for keeping track of your physical media collection. Built with Discogs API, React, Node, Express, jQuery and hand-built CSS - NO Bootstrap!</p>
+      <a class="button button-primary" href="https://github.com/MarkNewcomb1/final-project" target="_blank">GitHub source</a>
+      <a class="button button-primary" href="https://www.youtube.com/watch?v=gjayvebQerI" target="_blank">Demo Video</a>
     </div>
   </div>
   <div class="section categories">
@@ -121,7 +121,7 @@
   </div>
   <!-------------FORM--------->
   <div class="container">
-	        <h3 class="section-heading" style="text-align:center;padding-top:10rem;">Want to see more examples? Send me an email!</h3>
+	        <h3 class="section-heading" style="text-align:center;padding-top:10rem;">Want to see more? Send me an email!</h3>
 <form name="contactform" method="post" action="send_form_email.php">
   <div class="row">
     <div class="six columns">
