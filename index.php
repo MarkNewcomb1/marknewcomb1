@@ -56,7 +56,7 @@
       <div class="row">
         <div class="one-half column">
           <h4 class="hero-heading">Hi. I'm Mark Newcomb, Front-End Web Developer.</h4>
-          <h4 class="hero-heading">I've worked on household brand websites.</h4>          
+          <h4 class="hero-heading">I've worked on household brand websites.</h4>                  
 <a href="https://primepathlab.com" target="_blank"><img class="u-max-full-width" src="images/primepath-desktop-low.jpg"></a>
         </div>
         <div class="one-half column phones">
@@ -73,7 +73,7 @@
         <div class="one-third column value">
           <h2 class="value-multiplier">3+</h2>
           <h5 class="value-heading">Years' Experience</h5>
-          <p class="value-description">with Web Development companies in Colorado</p>
+          <p class="value-description">with Web Development companies in Colorado - REAL work for REAL clients.</p>
         </div>
         <div class="one-third column value">
           <h2 class="value-multiplier">3</h2>
