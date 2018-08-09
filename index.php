@@ -102,7 +102,7 @@
       <h3 class="section-heading">React.js Music Collection/Search App</h3>
       <p class="section-description">I've made an app for keeping track of your physical media collection. Built with Discogs API, React, Node, Express, jQuery and hand-built CSS - NO Bootstrap!</p>
       <a class="button button-primary" href="https://github.com/MarkNewcomb1/final-project" target="_blank">GitHub source</a>
-      <a class="button button-primary" href="https://www.youtube.com/watch?v=gjayvebQerI" target="_blank">Demo Video</a>
+      <a class="button button-primary" href="https://www.youtube.com/watch?v=gsKL-Dx6mRc" target="_blank">Demo Video</a>
     </div>
   </div>
   <div class="section categories">
