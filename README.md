@@ -1,4 +1,4 @@
-![me writing code down](http://marknewcomb1.com/images/me-front-shot-orangeifiedDARKER.jpg =250x)
+![me writing code down](http://marknewcomb1.com/images/me-front-shot-orangeifiedDARKER.jpg | width=250)
 # marknewcomb1
 My personal website and portfolio
 
