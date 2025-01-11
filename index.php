@@ -14,7 +14,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -23,7 +23,7 @@
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script>
 	  $(document).ready(function(){
 		  $(".container").hide();
@@ -46,7 +46,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
- <img id="preload" src="images/preload.GIF" />
+<img id="preload" src="images/preload.GIF" />
 <body>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -71,7 +71,7 @@
     <div class="container">
       <div class="row">
         <div class="one-third column value">
-          <h2 class="value-multiplier">8+</h2>
+          <h2 class="value-multiplier">10+</h2>
           <h5 class="value-heading">Years' Experience</h5>
           <p class="value-description">with Software companies in Colorado - REAL work for REAL clients.</p>
         </div>
