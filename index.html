@@ -20,10 +20,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script>
 	  $(document).ready(function(){
 		  $(".container").hide();
@@ -39,14 +40,17 @@
 			window.open('https://github.com/MarkNewcomb1/flora', '_blank');
 		});		
 	  });
-  </script>
+  </script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script src="main.js" defer></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-<img id="preload" src="images/preload.GIF" />
+<!-- <img id="preload" src="images/preload.GIF" /> -->
 <body>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -55,8 +59,12 @@
     <div class="container">
       <div class="row">
         <div class="one-half column">
-          <h4 class="hero-heading">Hi. I'm Mark Newcomb, <br>UI Developer.</h4>
-          <h4 class="hero-heading">I've worked on household brand websites, administrator tools for DaaS (Directory-as-a-Service), and legal software.</h4>    
+              <h1 class="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+          <h4 class="hero-heading" id="hero-text">Mark Newcomb</h4>
+          <h6 class="hero-heading" id="hero-text">Frontend Engineer | Clean Code, Real Impact</h6>
+          <p style="color: #fff;">Vue + React specialist with a strong product mindset. Clean architecture, and a bias toward simplicity.</p>    
           <a href="http://kspath.com" target="_blank"><img class="u-max-full-width" src="images/kps-desktop-low.jpg"></a>              
         </div>
         <div class="one-half column phones">
@@ -71,19 +79,16 @@
     <div class="container">
       <div class="row">
         <div class="one-third column value">
-          <h2 class="value-multiplier">10+</h2>
-          <h5 class="value-heading">Years' Experience</h5>
-          <p class="value-description">with Software companies in Colorado - REAL work for REAL clients.</p>
+          <h5 class="value-heading">About Me</h5>
+          <p class="value-description">I'm a frontend-focused engineer with a strong background in JavaScript, using frameworks such as React and Vue. I've led feature development on Apple device management tools, migrated codebases from Backbone to Vue Router and Redux to Pinia, and improved user experience with clean, accessible interfaces backed by thoughtful state architecture. I care deeply about developer ergonomics, code maintainability, and fast, intuitive user flows.</p>
         </div>
         <div class="one-third column value">
-          <h2 class="value-multiplier">4</h2>
-          <h5 class="value-heading">Formal Certificates</h5>
-          <p class="value-description">in Full Stack Web Development (MongoDB, Express, Angular, Node, React), Frontend Bootcamp (HTML5, SASS/CSS, Javascript), Immersive Web Development (ES6 Modules, React/Vue), and Backend Bootcamp (PHP, server-side architectures)</p>
+          <h5 class="value-heading">Clean UI, Honest UX</h5>
+          <p class="value-description">I believe interfaces should behave as expected. No scrolljacking! I build features that respect user habits and developer sanity: forms that make sense, flows that don't fight muscle memory, and code that's built to last and evolve. </p>
         </div>
         <div class="one-third column value">
-          <h2 class="value-multiplier">6</h2>
-          <h5 class="value-heading">Global brands</h5>
-          <p class="value-description">I've been entrusted to do website builds for, whose names you've seen in stores. Some have been full builds; others have been integration of new features into existing codebases. <br>Either way, I get it done.</p>
+          <h5 class="value-heading">Get It Done</h5>
+          <p class="value-description">I value direct collaboration, thoughtful naming, and making sure future developers don't hate me.</p>
         </div>
       </div> <!-- row -->
     </div>
@@ -91,8 +96,7 @@
   <div class="section get-help flora">
     <div class="container">
       <h3 class="section-heading">View my GitHub or Linkedin</h3>
-      <p class="section-description">I've made an app for collecting flora information in Colorado's wilderness, with HTML5 and PHP input validation, Open Weather API, and geolocation. Very little framework - mostly from-scratch code.</p>
-      <a class="button button-primary" href="https://github.com/MarkNewcomb1/flora" target="_blank">GitHub source</a>
+      <a class="button button-primary" href="https://github.com/MarkNewcomb1" target="_blank">GitHub</a>
       <a class="button button-primary" href="https://www.linkedin.com/in/marknewcomb1" target="_blank">LinkedIn</a>
       <img class="u-max-full-width" id="flora-finder" src="images/flora-finder-desktop.jpg">
     </div>
