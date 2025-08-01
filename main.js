@@ -36,7 +36,7 @@ let tl = gsap.timeline({
   scrollTrigger: {
     trigger: "#container",
     start: "top top",
-    end: "bottom bottom",
+    end: "2800",
     scrub: true
   }
 });
