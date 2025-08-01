@@ -8,104 +8,44 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ffmpeg -i goozmo2014-1.mp4 -movflags faststart -vcodec libx264 -crf 23 -g 1 -pix_fmt yuv420p output.mp4
-const video = document.querySelector(".video-background");
-let src = video.currentSrc || video.src;
-console.log(video, src);
 
-/* Make sure the video is 'activated' on iOS */
+gsap.registerPlugin(ScrollTrigger);
+
+// ---------- helpers ----------
 function once(el, event, fn, opts) {
-  var onceFn = function (e) {
-    el.removeEventListener(event, onceFn);
-    fn.apply(this, arguments);
-  };
+  const onceFn = (e) => { el.removeEventListener(event, onceFn); fn(e); };
   el.addEventListener(event, onceFn, opts);
   return onceFn;
 }
 
-once(document.documentElement, "touchstart", function (e) {
-  video.play();
-  video.pause();
+// ---------- elements ----------
+const video  = document.querySelector(".video-background");
+
+// Prime BOTH videos for iOS
+once(document.documentElement, "touchstart", () => {
+  [video].forEach(v => { try { v.play(); v.pause(); } catch(_) {} });
 });
 
-/* ---------------------------------- */
-/* Scroll Control! */
-
-gsap.registerPlugin(ScrollTrigger);
-
-let tl = gsap.timeline({
+// ---------- TL #1 (video 1 scrub + fade out) ----------
+const tl1 = gsap.timeline({
   defaults: { duration: 1 },
   scrollTrigger: {
-    trigger: "#container1",
+    trigger: "body",
     start: "top top",
-    end: "3000",
+    end: "+=8000",
     scrub: true,
+    // markers: true
   }
 });
 
-once(video, "loadedmetadata", () => {
-  tl.fromTo(
-    video,
-    { currentTime: 0 },
-    { currentTime: video.duration || 1, ease: "none" })
-    .to(".hero-content-wrapper", {
-    autoAlpha: 0,           // fade + hide from accessibility/pointer events
-    duration: 0.12,
-    ease: "none",
-    immediateRender: false
-  }, "-=0.12");
-});
-
-
-
-
-
-
-
-
-
-
-const video2 = document.querySelector(".video-background-2");
-let src2 = video2.currentSrc || video2.src;
-console.log(video2, src);
-
-/* Make sure the video is 'activated' on iOS */
-function once(el, event, fn, opts) {
-  var onceFn = function (e) {
-    el.removeEventListener(event, onceFn);
-    fn.apply(this, arguments);
-  };
-  el.addEventListener(event, onceFn, opts);
-  return onceFn;
+function buildVideo1() {
+  tl1.fromTo(video, { currentTime: 0 }, { currentTime: video.duration || 1, ease: "none" })
+     .to(".hero-content-wrapper", {
+        autoAlpha: 0,
+        duration: 0.12,
+        ease: "none",
+        immediateRender: false
+      }, "-=0.12");
 }
-
-once(document.documentElement, "touchstart", function (e) {
-  video2.play();
-  video2.pause();
-});
-
-/* ---------------------------------- */
-/* Scroll Control! */
-
-gsap.registerPlugin(ScrollTrigger);
-
-let tl2 = gsap.timeline({
-  defaults: { duration: 1 },
-  scrollTrigger: {
-    trigger: "#container2",
-    start: "top top",
-    end: "8000",
-    scrub: true
-  }
-});
-
-once(video2, "loadedmetadata", () => {
-  tl2.fromTo(
-    video2,
-    {
-      currentTime: 0
-    },
-    {
-      currentTime: video.duration || 1
-    }
-  );
-});
+if (video.readyState >= 1) buildVideo1();
+else once(video, "loadedmetadata", buildVideo1);
