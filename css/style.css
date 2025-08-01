@@ -720,9 +720,21 @@ p {
   color: #fff;
 }
 
-.video-background {
+/* .video-background {
   position: fixed;
   top: -25%;
   right: -25%;
+  transform: scale(.5);
+} */
+
+.sticky-section {
+  position: sticky;
+  top: 0;
+}
+
+.video-background-2 {
+  position: fixed;
+  top: -25%;
+  left: -25%;
   transform: scale(.5);
 }
