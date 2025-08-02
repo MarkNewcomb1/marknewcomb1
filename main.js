@@ -1,9 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
   gsap.from(".hero-heading", {
-    duration: 5,
+    duration: 2,
     opacity: 0,
-    y: 50,
-    ease: "power3.out"
+    x: -100,
+    ease: "expo.out"
+  });
+  gsap.from(".vue-react-specialist", {
+    duration: 2,
+    opacity: 0,
+    x: 800,
+    ease: "expo.out"
   });
 });
 
@@ -32,7 +38,7 @@ const tl1 = gsap.timeline({
   scrollTrigger: {
     trigger: "body",
     start: "top top",
-    end: "+=8000",
+    end: "+=6000",
     scrub: true,
     // markers: true
   }
@@ -44,7 +50,9 @@ function buildVideo1() {
         autoAlpha: 0,
         duration: 0.12,
         ease: "none",
-        immediateRender: false
+        immediateRender: false,
+          onComplete: () => gsap.set(".hero-content-wrapper", { display: "none" }),
+          onReverseComplete: () => gsap.set(".hero-content-wrapper", { display: "block" })
       }, "-=0.12");
 }
 if (video.readyState >= 1) buildVideo1();
