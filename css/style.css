@@ -464,6 +464,14 @@ p {
   margin-bottom: 2.5rem;
 }
 
+.spacer {
+  padding: 2rem 0;
+}
+
+#worked-for {
+  margin-bottom: 0;
+}
+
 
 /* Utilities
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
