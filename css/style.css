@@ -131,12 +131,7 @@ footer {
 .bh {
 	width: 300px;
 	max-width: 100%;
-	margin-bottom: 1.5rem;
-}
-@media (min-width: 1024px) {
-	.bh {
-		margin: 0 auto;
-	}
+	margin: 0 auto 1.5rem;
 }
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
