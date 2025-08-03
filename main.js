@@ -57,3 +57,17 @@ function buildVideo1() {
 }
 if (video.readyState >= 1) buildVideo1();
 else once(video, "loadedmetadata", buildVideo1);
+
+
+gsap.from(".built-by-me", {
+  scrollTrigger: {
+    trigger: ".built-by-me",
+    start: "top bottom",
+    toggleActions: "play none none none",
+    // markers: true              // uncomment to debug
+  },
+  opacity: 0,
+  y: 40,
+  duration: 1,
+  ease: "power3.out"
+});
