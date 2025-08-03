@@ -98,7 +98,7 @@ body {
   font-weight: 400;
   font-family: "Barlow", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color:#1a1a1a;
-  color: #fff; }
+  color: #f2f2f2; }
 footer {
 	background-color:#1a1a1a;
 	height:60px;
@@ -198,7 +198,7 @@ color: #f2f2f2;
 .categories {
   background-image: url('../images/me-side-shot-orangeified.jpg');
   background-size: cover;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 /* Typography
@@ -281,7 +281,7 @@ button.button-primary,
 input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
-  color: #FFF;
+  color: #f2f2f2;
   background-color: #984616;
   border-color: #984616; }
 .button.button-primary:hover,
@@ -294,7 +294,7 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #FFF;
+  color: #f2f2f2;
   background-color: #D86522;
   border-color: #D86522; }
 
@@ -312,7 +312,7 @@ textarea,
 select {
   height: 38px;
   padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-  background-color: #fff;
+  background-color: #f2f2f2;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
@@ -700,7 +700,7 @@ there.
 }
 
 p {
-  color: #fff;
+  color: #f2f2f2;
 }
 
 .video-background {
