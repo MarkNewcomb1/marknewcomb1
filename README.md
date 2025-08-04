@@ -2,12 +2,9 @@
 # marknewcomb1
 My personal website and portfolio
 
-## Installation Instructions
-Static HTML/CSS, so simply download the zip file or clone it, and start coding. 
-
 ## Contact Information
 
-Contact me, Mark Newcomb, here on Github or by way of [my website](http://marknewcomb1.com)
+Contact me, Mark Newcomb, here on Github or by way of [my website](https://marknewcomb1.com)
 
 ## License
 
@@ -17,7 +14,7 @@ The Original Code is the Mark Newcomb personal portfolio website.
 
 The Initial Developer of the Original Code is
 Mark Newcomb.
-Portions created by the Initial Developer are Copyright (C) 2018
+Portions created by the Initial Developer are Copyright (C) 2025
 the Initial Developer. All Rights Reserved.
 
 Alternatively, the contents of this file may be used under the terms of
