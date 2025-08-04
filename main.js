@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollTrigger: {
       trigger: "body",
       start: "top top",
-      end: "+=6000",
+      end: "+=5500",
       scrub: true
     }
   });
