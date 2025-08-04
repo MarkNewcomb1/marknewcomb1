@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const video = document.querySelector(".video-background");
 
   // iOS video priming
+  try { video.play().then(() => video.pause()); } catch (e) {}
   once(document.documentElement, "touchstart", () => {
     try { video.play(); video.pause(); } catch (_) {}
   });
@@ -55,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (video.readyState >= 1) buildVideo1();
   else once(video, "loadedmetadata", buildVideo1);
+  gsap.set(video, { autoAlpha: 1 });
 
   // Scroll-triggered fade-in for "Built By Me"
   gsap.from(".built-by-me", {
